@@ -1,9 +1,14 @@
+/*
+    Este arquivo diz como a página deve parecer.
+    Ele centraliza as coisas no meio da tela e escolhe a fonte e cor
+    para que tudo fique legível e bonitinho.
+*/
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    color: #333;
+    display: flex; /* faz o conteúdo se organizar de forma flexível (ajuda a centralizar) */
+    justify-content: center; /* coloca o conteúdo no centro da largura da página */
+    align-items: center; /* coloca o conteúdo no centro da altura da página */
+    height: 100vh; /* faz o corpo ter a altura inteira da janela do navegador */
+    font-family: Arial, sans-serif; /* escolhe a aparência da letra que o texto usa */
+    font-size: 24px; /* deixa o texto grande e fácil de ver */
+    color: #333; /* define a cor do texto (um cinza escuro) */
 }
